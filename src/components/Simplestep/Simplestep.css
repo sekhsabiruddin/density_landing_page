@@ -1,0 +1,45 @@
+.simplestep-outer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: #fff;
+}
+.simplestep-outer .simplestep-inner {
+  width: 60%;
+  height: auto;
+}
+.simplestep-outer .simplestep-inner .left h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.simplestep-outer .simplestep-inner .right .right-box {
+  display: flex;
+  justify-content: center;
+}
+.simplestep-outer .simplestep-inner .right .right-box .text-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.simplestep-outer .simplestep-inner .right .right-box {
+  margin-top: 3rem;
+}
+.simplestep-outer .simplestep-inner .right .right-box img {
+  max-height: 558.5px;
+  max-width: 275.56px;
+}
+.simplestep-outer .simplestep-inner .right .right-box .text-box button {
+  background: linear-gradient(to right, #d4f938, #32d875);
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.simplestep-outer .simplestep-inner .right .right-box .text-box h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
